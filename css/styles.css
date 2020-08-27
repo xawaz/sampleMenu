@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: black;
+    
+}
+h1{
+    text-align: center;
+    color: white;
+    width: 100%;
+    margin: 10px;
+}
+
+div>div>div{
+    
+    border: 1px solid rgb(190, 190, 190);
+    background-color: #3b3b3b; 
+    font-family: Helvetica;
+    color: white;
+    float: left;
+    padding: 3px;
+    padding-bottom: 33px;
+    position: relative;
+    margin-top: 3px;
+    margin-right: 0.5%;
+    margin-left: 0.5%;
+
+}
+h4{
+   background-color:lightblue;
+   color: black;
+   width: 75px;
+   text-align: right;
+   padding: 5px;
+   position: absolute;
+   right: 0px;
+   top: 0px;
+   clear: both;
+ 
+}
+p{
+    position: relative;
+    margin-top: 30px;
+}
+.row{
+    width: 100%;
+}
+.des{
+     
+}
+
+@media(min-width:992px)
+{
+    .large{
+        width: 32.3%;
+    }
+    .des{
+
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .medium{
+        box-sizing: border-box;
+        width: 48%;
+        margin: 1%;
+    }
+    .medium2{
+        width: 98%;
+        margin-right: 1%;
+        margin-left: 1%;
+    }
+    div>div>div{
+        margin: 0;
+        margin: ;
+    }
+}
+
+@media(max-width:767)
+.large{
+    width: 100%;
+}
